@@ -3,6 +3,7 @@ import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import { FaMedal, FaTrophy, FaAward } from 'react-icons/fa';
+import Image from 'next/image';
 
 // Import semua gambar dari folder 'articles'
 import achieve1 from '../../public/images/articles/1.jpeg';
@@ -13,8 +14,6 @@ import achieve5 from '../../public/images/articles/5.jpeg';
 import achieve6 from '../../public/images/articles/6.jpg';
 import achieve7 from '../../public/images/articles/7.png';
 import achieve8 from '../../public/images/articles/9.png';
-
-
 
 // Array gambar untuk carousel
 const images = [
@@ -27,10 +26,12 @@ const ContinuousCarousel = () => (
         <div className="carousel-track flex animate-scroll">
             {images.map((img, index) => (
                 <div key={index} className="carousel-item flex-shrink-0 w-[300px] p-2">
-                    <img
-                        src={img.src}
+                    <Image
+                        src={img}
                         alt={`Achievement ${index + 1}`}
                         className="rounded-lg shadow-lg w-full object-cover h-[300px]"
+                        priority={true}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                 </div>
             ))}
@@ -55,7 +56,6 @@ const style = `
     100% { transform: translateX(-100%); }
 }
 `;
-
 
 // Data prestasi: 14 penghargaan
 const achievementsData = [

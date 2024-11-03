@@ -49,7 +49,7 @@ const about = () => {
                         <div className='col-span-1 lg:col-span-3 flex flex-col items-start justify-start'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                             <p className='font-medium'>
-                                Hi, I'm Guntur Awaludin, a full-stack developer, machine learning engineer, and passionate researcher with expertise in IoT and AI. I thrive on developing innovative solutions that bridge technology with real-world challenges. With multiple international achievements, I constantly seek new ways to push boundaries and make an impact.
+                                Hi, I&apos;m Guntur Awaludin, a full-stack developer, machine learning engineer, and passionate researcher with expertise in IoT and AI. I thrive on developing innovative solutions that bridge technology with real-world challenges. With multiple international achievements, I constantly seek new ways to push boundaries and make an impact.
                             </p>
                             <p className='my-4 font-medium'>
                                 I believe that technology is a tool for transformation – not just about writing code but solving complex problems and creating seamless, impactful experiences. Every solution I design reflects my dedication to innovation, efficiency, and excellence.
@@ -57,6 +57,7 @@ const about = () => {
                             <p className='font-medium'>
                                 Whether working on smart microgrid systems, building AI-powered applications, or crafting e-commerce platforms, I bring my commitment to creativity, problem-solving, and user-centered development to every project. I look forward to applying my skills and passion to your next challenge.
                             </p>
+
                         </div>
 
                         {/* Profile Picture Section */}
@@ -73,26 +74,26 @@ const about = () => {
 
                         {/* Stats Section */}
                         {/* Stats Section */}
-<div className='col-span-1 lg:col-span-2 flex flex-col items-center lg:items-end justify-between'>
-    <div className='flex flex-col items-center lg:items-end justify-center mb-8 md:mb-4'>
-        <span className='inline-block text-5xl md:text-6xl lg:text-7xl font-bold'>
-            <AnimatedNumbers value={50} />+
-        </span>
-        <h2 className='dark:text-light/75 text-lg md:text-xl font-medium capitalize text-dark/75 text-center lg:text-right'>International & National Achievements</h2>
-    </div>
-    <div className='flex flex-col items-center lg:items-end justify-center mb-8 md:mb-4'>
-        <span className='inline-block text-5xl md:text-6xl lg:text-7xl font-bold'>
-            <AnimatedNumbers value={3} />+
-        </span>
-        <h2 className='dark:text-light/75 text-lg md:text-xl font-medium capitalize text-dark/75 text-center lg:text-right'>International Conferences Presented</h2>
-    </div>
-    <div className='flex flex-col items-center lg:items-end justify-center'>
-        <span className='inline-block text-5xl md:text-6xl lg:text-7xl font-bold'>
-            <AnimatedNumbers value={1} /> Year
-        </span>
-        <h2 className='dark:text-light/75 text-lg md:text-xl font-medium capitalize text-dark/75 text-center lg:text-right'>Work Experience</h2>
-    </div>
-</div>
+                        <div className='col-span-1 lg:col-span-2 flex flex-col items-center lg:items-end justify-between'>
+                            <div className='flex flex-col items-center lg:items-end justify-center mb-8 md:mb-4'>
+                                <span className='inline-block text-5xl md:text-6xl lg:text-7xl font-bold'>
+                                    <AnimatedNumbers value={50} />+
+                                </span>
+                                <h2 className='dark:text-light/75 text-lg md:text-xl font-medium capitalize text-dark/75 text-center lg:text-right'>International & National Achievements</h2>
+                            </div>
+                            <div className='flex flex-col items-center lg:items-end justify-center mb-8 md:mb-4'>
+                                <span className='inline-block text-5xl md:text-6xl lg:text-7xl font-bold'>
+                                    <AnimatedNumbers value={3} />+
+                                </span>
+                                <h2 className='dark:text-light/75 text-lg md:text-xl font-medium capitalize text-dark/75 text-center lg:text-right'>International Conferences Presented</h2>
+                            </div>
+                            <div className='flex flex-col items-center lg:items-end justify-center'>
+                                <span className='inline-block text-5xl md:text-6xl lg:text-7xl font-bold'>
+                                    <AnimatedNumbers value={1} /> Year
+                                </span>
+                                <h2 className='dark:text-light/75 text-lg md:text-xl font-medium capitalize text-dark/75 text-center lg:text-right'>Work Experience</h2>
+                            </div>
+                        </div>
 
                     </div>
 
