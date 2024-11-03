@@ -4,10 +4,10 @@ import Layout from '../components/Layout'; // Import Layout component
 import AnimatedText from '@/components/AnimatedText';
 import Image from 'next/image';
 import { motion } from 'framer-motion'; // Framer Motion for animations
-import profilePic from '../../Public/images/profile/vector_guntur_1-removebg.png';
+import profilePic from '../../public/images/profile/vector_guntur_1-removebg.png';
 import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
-import lightBulb from '../../Public/images/svgs/miscellaneous_icons_1.svg';
+import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 import { useEffect, useState } from 'react';
 
 export default function Home() {
